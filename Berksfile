@@ -13,5 +13,5 @@ cookbook "sys_firewall", git: "git://github.com/rightscale/rightscale_cookbooks.
 cookbook "sys_ntp", git: "git://github.com/rightscale/rightscale_cookbooks.git", branch: "fb5162b30eaaaed02d61a411cad9e7aa45c4e7ca", rel: "cookbooks/sys_ntp"
 
 group :vagrant_only do
-  cookbook "rs_vagrant_shim", git: "https://github.com/rgeyer-rs-cookbooks/rs_vagrant_shim.git", branch: "f34435d604a45a8c1eb0b6a0c2a4a397012a45b4"
+  cookbook "rs_vagrant_shim", git: "https://github.com/rgeyer-rs-cookbooks/rs_vagrant_shim.git", branch: "d98be264f6741822a22c99d5f3c2a0efae7871b2"
 end
